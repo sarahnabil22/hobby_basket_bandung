@@ -14,9 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//TODO: Sarah ini file untuk routing, 
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/shopping-cart', function () {
+    return view('shopping-cart'); // ini nama file.blade.php bisa cari di resources/views/...
+})->name('cart');
+
+Route::get('/profile', function () {
+    return view('profile');
+})->name('profile');
 
 Auth::routes();
 

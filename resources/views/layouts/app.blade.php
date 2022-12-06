@@ -37,7 +37,7 @@
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('EVENT') }}</a>
+                            <a class="nav-link" href="{{ route('cart') }}">{{ __('EVENT') }}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('COMMUNITY') }}</a>
